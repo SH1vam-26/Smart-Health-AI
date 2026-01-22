@@ -45,12 +45,12 @@ const prompt = ai.definePrompt({
   Provide a list of potential diagnoses. Also, include a disclaimer that these diagnoses are potential and not definitive medical advice.
   The potentialDiagnoses field should be a comma separated list.
   Here's an example of a well-formatted response:
-  \\\`\`\`json
+  \`\`\`json
   {
     "potentialDiagnoses": "Common cold, Flu, Bronchitis",
     "disclaimer": "These diagnoses are potential and not definitive medical advice. Consult a healthcare professional for accurate diagnosis and treatment."
   }
-  \\\`\`\``,
+  \`\`\``,
 });
 
 const symptomDiagnosisFlow = ai.defineFlow(
